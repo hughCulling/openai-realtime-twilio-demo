@@ -18,7 +18,7 @@ Make sure all vars in `webapp/.env` and `websocket-server/.env` are set correctl
 
 ## Overview
 
-This repo implements a phone calling assistant with the Realtime API and Twilio, and had two main parts: the `webapp`, and the `websocket-server`.
+This repo implements a phone calling assistant with the Realtime API and Twilio, and has two main parts: the `webapp`, and the `websocket-server`.
 
 1. `webapp`: NextJS app to serve as a frontend for call configuration and transcripts
 2. `websocket-server`: Express backend that handles connection from Twilio, connects it to the Realtime API, and forwards messages to the frontend
